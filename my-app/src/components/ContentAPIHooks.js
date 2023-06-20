@@ -3,7 +3,7 @@ import css from "./css/Content.module.css";
 import PostItemAPI from "./PostItemAPI";
 import Loader from "./Loader";
 import axios from "axios";
-import API_KEY from "./secrets";
+import API_KEY from "../secrets";
 
 export default function ContentAPIHooks() {
     const [isLoaded, setIsLoaded] = useState(false);
